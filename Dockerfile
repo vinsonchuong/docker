@@ -1,4 +1,5 @@
 FROM node:latest
 
-RUN apt-get update -yq \
- && apt-get install -yq chromium libatk-bridge2.0-0 libgtk-3-0
+RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - \
+ && apt-get update -yq \
+ && apt-get install -yq google-chrome-stable
