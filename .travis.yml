@@ -4,4 +4,4 @@ env:
   global:
     secure: FqQzxTCYXmM1MQdrdNnqLpQzQW3kcS81DN9LvOzVLEv6vtdAQbEHr6V0/mHceBbXlWkdXsdKdDAF5R+FElUMIcOY1WUVF2M1VKLfpBoeFlyi2GcPt4vLh5lfY8JgBwTCkoskEGrGSoM9PFEeXm25gsUM6pNQhhPccNfUdSDWoXu5dDyrq1ZJ5ljIZa0p45Os4+3u4HSQKOsbg5Po6pIinbxRkwKQ1B+qEdZx2zgMSHTa2bLh0Q/hycdWz0ZUPrcYLs9CSlhGv7+SExyKiSWmpTR3W3s/YtUwSxKjAWMZKIwpxlyzTZYpxVQ7FDOTdDpFbtnkB80y7CiUMGSWV9i6DKASoPnai9Z+qh57JR5C3W/ryp5ybkEueCf/y7cfvTDP17Dms2MH2CFirRpnAixpbOZ3KkaFBDlW82Tq6EawjTFHsLcaanlwVpDeDU2bvt1OuPeshJi09gaKT3ZCgJGuIc0m+ESMeXS7No9ArO8kGVeOaqvUnVhM3mhRnvo8QHc0FihlYsrsmwPXIhiFMpTzqHanSIV/HfNKeU5s77i12Iv4YBT64kzzGue3ewcC76Rs3D1bZloUm9oaK7wXBAF/CKlxj8DApMjJ48CTO4BdAiqgv+mGLy4iPQdJVkIsz2ZkXJvntfLEapZlFU7yiEpA/CYoBWiKXD7OYgBG2L7j4LU=
 script:
-  - "curl -H 'Content-Type: application/json' --data '{\"build\": true}' -X POST \"https://registry.hub.docker.com/u/splayd/javascript/trigger/${DOCKER_HUB_TOKEN}\""
+  - "curl -H 'Content-Type: application/json' --data '{\"build\": true}' -X POST \"https://registry.hub.docker.com/u/splayd/javascript/trigger/${DOCKER_HUB_TOKEN}/\""
